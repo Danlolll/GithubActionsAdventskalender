@@ -22,7 +22,7 @@ jobs:
         run: mvn clean package
 
       - name: Copy JAR to web directory
-        run:
+        run: |
           mkdir -p docs/download
           cp target/Adventskalender.jar docs/download/Adventskalender.jar
 

@@ -21,6 +21,11 @@ jobs:
       - name: Build project with Maven
         run: mvn clean package
 
+      - name: Copy JAR to web directory
+        run: |
+          mkdir -p build/web
+          cp target/Adventskalender.jar build/web/
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:

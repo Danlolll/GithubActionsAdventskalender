@@ -78,7 +78,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>htl.steyr.adventcalender.AdventCalendarApp</mainClass>
+                            <mainClass>htl.steyr.githubactionsadventskalender.HelloApplication</mainClass>
                         </manifest>
                     </archive>
                     <finalName>advent-calendar</finalName>

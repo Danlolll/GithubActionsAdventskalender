@@ -19,7 +19,7 @@ jobs:
           distribution: 'temurin'
 
       - name: Download artifacts
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v3
         with:
           name: Adventskalender
 
@@ -29,7 +29,7 @@ jobs:
       - name: Copy JAR to web directory
         run: |
           mkdir -p docs/download
-          cp *.jar docs/download/
+          cp target/*.jar docs/download/
 
       - name: Commit and push changes
         run: |

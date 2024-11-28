@@ -37,7 +37,7 @@ public class HelloApplication extends Application {
             "Weihnachten ist, wenn Herzen leuchten.",
             "Der Duft von Zimt erfüllt den Raum.",
             "Hoffnung liegt in der Luft.",
-            "Fröhliche Weihnachten!"
+            "Fröhliche Weihnachten!:)"
     };
 
     public static void main(String[] args) {

@@ -12,7 +12,7 @@ import javafx.scene.text.Font;
 import javafx.scene.text.FontWeight;
 import javafx.stage.Stage;
 
-public class HelloApplication extends Application {
+public class AdventskalenderApplication extends Application {
     private static final String[] SPRUECHE = {
             "Heute ist ein schöner Tag!",
             "Ein Lächeln kostet nichts, bringt aber viel.",
